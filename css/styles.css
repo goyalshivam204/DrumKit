@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: #435560;
+  width: 100%;
+  padding-bottom: 2%;
+  font-family: cursive;
+
+  text-align: center;
+  display: flex;
+  color: #c8c6a7;
+  padding-top: 0%;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 6vw;
+  font-weight: 600;
+  padding-bottom: 4%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.instrument {
+  /* height: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vw;
+  width: 7vw;
+  margin: 10px;
+  border-radius: 10px;
+  border: 5px groove black;
+  background-image: url("images/img1.png");
+  font-size: 6vw;
+  color: red;
+  font-family: serif;
+  text-shadow: 2px 2px white;
+}
+#instrument1 {
+  background-image: url("images/img1.png");
+}
+
+#instrument2 {
+  background-image: url("images/img2.png");
+}
+
+#instrument3 {
+  background-image: url("images/img3.png");
+}
+
+#instrument4 {
+  background-image: url("images/img4.png");
+}
+
+#instrument5 {
+  background-image: url("images/img5.png");
+}
+
+#instrument6 {
+  background-image: url("images/img6.png");
+}
+
+#instrument7 {
+  background-image: url("images/img7.png");
+}
+
+footer {
+  margin-top: 3%;
+}
